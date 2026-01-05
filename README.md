@@ -2,7 +2,7 @@
 
 # `react-clsx`
 
-**Stop importing `clsx` manually.**
+**Stop importing `clsx` or `classnames` manually.**
 
 A custom React JSX runtime that natively supports **arrays** and **objects** in the `className` prop. It automatically applies `clsx` logic at the runtime level, keeping your code clean and your imports empty.
 
