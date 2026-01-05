@@ -2,7 +2,18 @@
   "name": "react-clsx",
   "version": "0.9.0",
   "description": "Custom React JSX Runtime to support arrays and objects in className prop natively.",
-  "keywords": [],
+  "keywords": [
+    "react",
+    "jsx",
+    "jsx-runtime",
+    "jsx-dev-runtime",
+    "className",
+    "clsx",
+    "styling",
+    "utility",
+    "typescript",
+    "css"
+  ],
   "type": "module",
   "types": "./dist/react-clsx.d.ts",
   "exports": {
@@ -25,7 +36,7 @@
     "access": "public"
   },
   "author": {
-    "name": "Zsolt Tovis",
+    "name": "Zsolt Tövis",
     "email": "tovis.zsolt@gmail.com",
     "url": "https://toviszsolt.stacklegend.com/"
   },
@@ -60,6 +71,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.1",
+    "@vitest/coverage-v8": "^4.0.16",
     "clsx": "^2.1.1",
     "esbuild": "^0.27.2",
     "jsdom": "^27.4.0",
