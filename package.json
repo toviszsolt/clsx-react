@@ -1,5 +1,5 @@
 {
-  "name": "react-clsx",
+  "name": "clsx-react",
   "version": "0.9.0",
   "description": "Custom React JSX Runtime to support arrays and objects in className prop natively.",
   "keywords": [
@@ -15,21 +15,21 @@
     "css"
   ],
   "type": "module",
-  "types": "./dist/react-clsx.d.ts",
+  "types": "./dist/clsx-react.d.ts",
   "exports": {
     "./jsx-runtime": {
-      "types": "./dist/react-clsx.d.ts",
+      "types": "./dist/clsx-react.d.ts",
       "import": "./dist/jsx-runtime.js",
       "require": "./dist/jsx-runtime.cjs"
     },
     "./jsx-dev-runtime": {
-      "types": "./dist/react-clsx.d.ts",
+      "types": "./dist/clsx-react.d.ts",
       "import": "./dist/jsx-dev-runtime.js",
       "require": "./dist/jsx-dev-runtime.cjs"
     }
   },
   "files": [
-    "react-clsx.d.ts",
+    "clsx-react.d.ts",
     "dist"
   ],
   "publishConfig": {
@@ -50,13 +50,13 @@
       "url": "https://www.paypal.com/paypalme/toviszsolt"
     }
   ],
-  "homepage": "https://github.com/toviszsolt/react-clsx",
+  "homepage": "https://github.com/toviszsolt/clsx-react",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/toviszsolt/react-clsx.git"
+    "url": "git+https://github.com/toviszsolt/clsx-react.git"
   },
   "bugs": {
-    "url": "https://github.com/toviszsolt/react-clsx/issues"
+    "url": "https://github.com/toviszsolt/clsx-react/issues"
   },
   "license": "MIT",
   "scripts": {

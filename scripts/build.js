@@ -47,10 +47,10 @@ async function buildAll() {
 
   // copy types file to dist if present
   try {
-    copyFileSync(resolve(src, 'react-clsx.d.ts'), resolve(dist, 'react-clsx.d.ts'));
-    console.log('Copied types to dist/react-clsx.d.ts');
+    copyFileSync(resolve(src, 'clsx-react.d.ts'), resolve(dist, 'clsx-react.d.ts'));
+    console.log('Copied types to dist/clsx-react.d.ts');
   } catch (err) {
-    console.warn('No types file copied (react-clsx.d.ts not found at project root)');
+    console.warn('No types file copied (clsx-react.d.ts not found at project root)');
   }
 
   console.log('Build complete.');

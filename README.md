@@ -1,6 +1,6 @@
-[![GitHub License](https://img.shields.io/github/license/toviszsolt/react-clsx?style=flat)](https://github.com/toviszsolt/react-clsx/blob/main/LICENSE) [![npm](https://img.shields.io/npm/v/react-clsx?style=flat&color=red)](https://www.npmjs.com/package/react-clsx) [![GitHub Repo stars](https://img.shields.io/github/stars/toviszsolt/react-clsx?color=DAAA3F)](https://github.com/toviszsolt/react-clsx/stargazers) [![Run tests](https://github.com/toviszsolt/react-clsx/actions/workflows/main.yml/badge.svg)](https://github.com/toviszsolt/react-clsx/actions/workflows/main.yml) [![codecov](https://codecov.io/gh/toviszsolt/react-clsx/branch/main/graph/badge.svg?token=IONV9YMZXG)](https://codecov.io/gh/toviszsolt/react-clsx) [![Sponsor](https://img.shields.io/static/v1?label=sponsor&message=❤&color=ff69b4)](https://github.com/sponsors/toviszsolt)
+[![GitHub License](https://img.shields.io/github/license/toviszsolt/clsx-react?style=flat)](https://github.com/toviszsolt/clsx-react/blob/main/LICENSE) [![npm](https://img.shields.io/npm/v/clsx-react?style=flat&color=red)](https://www.npmjs.com/package/clsx-react) [![GitHub Repo stars](https://img.shields.io/github/stars/toviszsolt/clsx-react?color=DAAA3F)](https://github.com/toviszsolt/clsx-react/stargazers) [![Run tests](https://github.com/toviszsolt/clsx-react/actions/workflows/main.yml/badge.svg)](https://github.com/toviszsolt/clsx-react/actions/workflows/main.yml) [![codecov](https://codecov.io/gh/toviszsolt/clsx-react/branch/main/graph/badge.svg?token=IONV9YMZXG)](https://codecov.io/gh/toviszsolt/clsx-react) [![Sponsor](https://img.shields.io/static/v1?label=sponsor&message=❤&color=ff69b4)](https://github.com/sponsors/toviszsolt)
 
-# `react-clsx`
+# `clsx-react`
 
 **Stop importing `clsx` or `classnames` manually.**
 
@@ -31,11 +31,11 @@ export const Button = ({ active, disabled }) => (
 ## Installation
 
 ```bash
-npm install react-clsx
+npm install clsx-react
 # or
-yarn add react-clsx
+yarn add clsx-react
 # or
-pnpm add react-clsx
+pnpm add clsx-react
 ```
 
 > **Note:** Requires `react` >= 17.0.0.
@@ -54,7 +54,7 @@ This handles both the compilation and the type definitions (so TS won't complain
 {
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "react-clsx"
+    "jsxImportSource": "clsx-react"
   }
 }
 ```
@@ -70,7 +70,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   esbuild: {
-    jsxImportSource: 'react-clsx',
+    jsxImportSource: 'clsx-react',
   },
 });
 ```
@@ -126,7 +126,7 @@ It adds negligible overhead (bytes) and eliminates the need to manually import a
 
 ## TypeScript Support
 
-This package includes a global augmentation for `React.HTMLAttributes`. Once you set `"jsxImportSource": "react-clsx"` in your `tsconfig.json`, TypeScript will automatically understand that `className` accepts arrays and objects. No extra `.d.ts` configuration needed!
+This package includes a global augmentation for `React.HTMLAttributes`. Once you set `"jsxImportSource": "clsx-react"` in your `tsconfig.json`, TypeScript will automatically understand that `className` accepts arrays and objects. No extra `.d.ts` configuration needed!
 
 ---
 
@@ -138,4 +138,4 @@ See [Code of Conduct](./CODE_OF_CONDUCT.md), [Contributing](./CONTRIBUTING.md), 
 
 MIT License © 2022–2024 [Zsolt Tövis](https://github.com/toviszsolt)
 
-If you find this project useful, please consider [sponsoring me on GitHub](https://github.com/sponsors/toviszsolt), [PayPal](https://www.paypal.com/paypalme/toviszsolt), or [give the repo a star](https://github.com/toviszsolt/react-clsx).
+If you find this project useful, please consider [sponsoring me on GitHub](https://github.com/sponsors/toviszsolt), [PayPal](https://www.paypal.com/paypalme/toviszsolt), or [give the repo a star](https://github.com/toviszsolt/clsx-react).
