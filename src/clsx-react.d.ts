@@ -19,7 +19,7 @@ declare global {
       [K in keyof React.JSX.IntrinsicElements]: WithCustomClassName<React.JSX.IntrinsicElements[K]>;
     };
 
-    interface IntrinsicAttributes {
+    interface IntrinsicAttributes extends React.Attributes {
       className?: ClassNameValue;
     }
   }
