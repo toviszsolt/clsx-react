@@ -69,13 +69,13 @@
     "react": ">=17.0.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/jest-dom": "6.10.0",
     "@testing-library/react": "^16.3.2",
-    "@vitest/coverage-v8": "^4.1.9",
+    "@vitest/coverage-v8": "^4.1.10",
     "clsx": "^2.1.1",
     "esbuild": "^0.28.1",
     "jsdom": "^29.1.1",
-    "react": "^19.2.7",
-    "vitest": "^4.1.9"
+    "react": "^19.2.8",
+    "vitest": "^4.1.10"
   }
 }
